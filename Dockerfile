@@ -4,7 +4,7 @@ USER root
 ENV DEBIAN_FRONTEND=noninteractive
 RUN \
     --mount=type=cache,target=/var/cache/apt \
-    apt-get update && \
-    apt-get install git
+    apt-get update -y && \
+    apt-get install -y git
 
 USER runner
