@@ -1,2 +1,3 @@
-# actions-runner
-👟 Custom GitHub actions runner.
+# 👟 actions-runner
+
+Custom GitHub actions runner.
