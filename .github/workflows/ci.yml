@@ -74,8 +74,6 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         name: Release ${{ github.ref_name }}
-        files: dist/*
-        fail_on_unmatched_files: true
         draft: false
         prerelease: false
         generate_release_notes: true
