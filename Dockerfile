@@ -5,6 +5,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN \
     --mount=type=cache,target=/var/cache/apt \
     apt-get update -y && \
-    apt-get install -y git build-essential
+    apt-get install -y git build-essential libz-dev
 
 USER runner
